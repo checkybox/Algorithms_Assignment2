@@ -32,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.example.Main</mainClass>
+                            <mainClass>org.example.cli.BenchmarkRunner</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
