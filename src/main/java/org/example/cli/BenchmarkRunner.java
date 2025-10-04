@@ -59,8 +59,8 @@ public class BenchmarkRunner {
     }
 
     private static void printCliUsage() {
-        System.out.println("Usage: java -jar algorithms.jar --size <n> --csv <file> [--seed <seed>]");
-        System.out.println("Example: java -jar algorithms.jar --size 10000 --csv results.csv");
+        System.out.println("Usage: java -jar insertion_sort-1.0.jar --size <n> --csv <file> [--seed <seed>]");
+        System.out.println("Example: java -jar insertion_sort-1.0.jar --size 10000 --csv results.csv");
     }
 
     private static void printCliSummary(int size, PerformanceTracker tracker, String csvFile) {
