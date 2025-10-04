@@ -10,20 +10,15 @@ public class InsertionSort {
             tracker.incrementArrayAccesses(); // arr[i] read
             int temp = arr[i];
             int j = i - 1;
-            while (j >= 0) {
+            while (j >= 0 && arr[j] > temp) {
                 tracker.incrementArrayAccesses(); // arr[j] read for comparison
                 tracker.incrementComparisons();
-                if (arr[j] > temp) {
-                    tracker.incrementArrayAccesses(); // arr[j] read for assignment
-                    tracker.incrementArrayAccesses(); // arr[j + 1] write
-                    arr[j + 1] = arr[j];
-                    tracker.incrementMoves();
-                    j--;
-                } else {
-                    break;
-                }
+                tracker.incrementArrayAccesses(); // arr[j+1] write
+                arr[j + 1] = arr[j];
+                tracker.incrementMoves();
+                j--;
             }
-            tracker.incrementArrayAccesses(); // arr[j + 1] write
+            tracker.incrementArrayAccesses(); // arr[j+1] write
             arr[j + 1] = temp;
             tracker.incrementMoves();
         }
