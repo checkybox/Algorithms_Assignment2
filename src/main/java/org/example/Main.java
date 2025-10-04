@@ -6,8 +6,6 @@ import org.example.metrics.PerformanceTracker;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
-import java.util.Arrays;
-import java.io.File;
 
 public class Main {
     private static void initializeCsv(String csvFile) {
