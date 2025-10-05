@@ -11,6 +11,7 @@
 
 ## Featured algorithms
 - Insertion Sort
+- Selection Sort (Peer analysis, find inside docs/)
 
 ## Command-line interface
 
@@ -132,6 +133,9 @@ All insertions and shifts are performed within the original array, with no need 
 - For the i-th element (i from 1 to n-1), in the worst case, it is compared with all i previous elements.
 
 This gives the recurrence relation of `T(n) = T(n-1) + (n-1)` which simplifies to `T(n) = O(n²)`
+
+### Plots
+![Time vs Input Size](docs/performance-plots/plot.png)
 
 ### Summary
 
