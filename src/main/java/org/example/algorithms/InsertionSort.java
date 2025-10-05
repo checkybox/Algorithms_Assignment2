@@ -4,6 +4,7 @@ import org.example.metrics.PerformanceTracker;
 
 public class InsertionSort {
     public static void sort(int[] arr, PerformanceTracker tracker) {
+        if (arr == null) throw new IllegalArgumentException("array cannot be null");
         tracker.reset();
         tracker.startTimer();
         for (int i = 1; i < arr.length; i++) {
