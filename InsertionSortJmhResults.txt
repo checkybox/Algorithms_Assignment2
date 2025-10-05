@@ -1,0 +1,192 @@
+Benchmark                                   (size)  Mode  Cnt      Score   Error  Units
+InsertionSortJmh.insertionSortNearlySorted     100  avgt          ≈ 10⁻³          ms/op
+InsertionSortJmh.insertionSortNearlySorted    1000  avgt           0.008          ms/op
+InsertionSortJmh.insertionSortNearlySorted   10000  avgt           0.509          ms/op
+InsertionSortJmh.insertionSortNearlySorted  100000  avgt          44.561          ms/op
+InsertionSortJmh.insertionSortRandom           100  avgt           0.002          ms/op
+InsertionSortJmh.insertionSortRandom          1000  avgt           0.178          ms/op
+InsertionSortJmh.insertionSortRandom         10000  avgt          14.840          ms/op
+InsertionSortJmh.insertionSortRandom        100000  avgt        1789.367          ms/op
+InsertionSortJmh.insertionSortReverse          100  avgt           0.004          ms/op
+InsertionSortJmh.insertionSortReverse         1000  avgt           0.355          ms/op
+InsertionSortJmh.insertionSortReverse        10000  avgt          36.643          ms/op
+InsertionSortJmh.insertionSortReverse       100000  avgt       10983.204          ms/op
+InsertionSortJmh.insertionSortSorted           100  avgt          ≈ 10⁻⁴          ms/op
+InsertionSortJmh.insertionSortSorted          1000  avgt           0.001          ms/op
+InsertionSortJmh.insertionSortSorted         10000  avgt           0.009          ms/op
+InsertionSortJmh.insertionSortSorted        100000  avgt           0.080          ms/op
+
+Benchmark                                                      (size)  Mode  Cnt       Score   Error   Units
+InsertionSortJmh.insertionSortNearlySorted                        100  avgt           ≈ 10⁻³           ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate          100  avgt         1131.879          MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm     100  avgt          416.000            B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count               100  avgt           73.000          counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time                100  avgt           46.000              ms
+InsertionSortJmh.insertionSortNearlySorted                       1000  avgt            0.010           ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate         1000  avgt          382.976          MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm    1000  avgt         4016.007            B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count              1000  avgt           30.000          counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time               1000  avgt           22.000              ms
+InsertionSortJmh.insertionSortNearlySorted                      10000  avgt            0.571           ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate        10000  avgt           66.870          MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm   10000  avgt        40016.395            B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count             10000  avgt            5.000          counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time              10000  avgt            7.000              ms
+InsertionSortJmh.insertionSortNearlySorted                     100000  avgt           54.899           ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate       100000  avgt            6.949          MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm  100000  avgt       400053.552            B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count            100000  avgt              ≈ 0          counts
+InsertionSortJmh.insertionSortRandom                              100  avgt            0.002           ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate                100  avgt          204.551          MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm           100  avgt          416.001            B/op
+InsertionSortJmh.insertionSortRandom:gc.count                     100  avgt           16.000          counts
+InsertionSortJmh.insertionSortRandom:gc.time                      100  avgt           11.000              ms
+InsertionSortJmh.insertionSortRandom                             1000  avgt            0.202           ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate               1000  avgt           18.950          MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm          1000  avgt         4016.142            B/op
+InsertionSortJmh.insertionSortRandom:gc.count                    1000  avgt            1.000          counts
+InsertionSortJmh.insertionSortRandom:gc.time                     1000  avgt            1.000              ms
+InsertionSortJmh.insertionSortRandom                            10000  avgt           21.208           ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate              10000  avgt            1.800          MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm         10000  avgt        40030.627            B/op
+InsertionSortJmh.insertionSortRandom:gc.count                   10000  avgt              ≈ 0          counts
+InsertionSortJmh.insertionSortRandom                           100000  avgt         1835.531           ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate             100000  avgt            0.208          MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm        100000  avgt       401166.667            B/op
+InsertionSortJmh.insertionSortRandom:gc.count                  100000  avgt              ≈ 0          counts
+InsertionSortJmh.insertionSortReverse                             100  avgt            0.005           ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate               100  avgt           74.328          MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm          100  avgt          416.004            B/op
+InsertionSortJmh.insertionSortReverse:gc.count                    100  avgt            6.000          counts
+InsertionSortJmh.insertionSortReverse:gc.time                     100  avgt            9.000              ms
+InsertionSortJmh.insertionSortReverse                            1000  avgt            0.373           ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate              1000  avgt           10.275          MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm         1000  avgt         4016.257            B/op
+InsertionSortJmh.insertionSortReverse:gc.count                   1000  avgt              ≈ 0          counts
+InsertionSortJmh.insertionSortReverse                           10000  avgt           32.812           ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate             10000  avgt            1.164          MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm        10000  avgt        40039.921            B/op
+InsertionSortJmh.insertionSortReverse:gc.count                  10000  avgt            1.000          counts
+InsertionSortJmh.insertionSortReverse:gc.time                   10000  avgt            4.000              ms
+InsertionSortJmh.insertionSortReverse                          100000  avgt        10044.684           ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate            100000  avgt            0.039          MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm       100000  avgt       406888.000            B/op
+InsertionSortJmh.insertionSortReverse:gc.count                 100000  avgt              ≈ 0          counts
+InsertionSortJmh.insertionSortSorted                              100  avgt           ≈ 10⁻⁴           ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate                100  avgt         4159.931          MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm           100  avgt          416.000            B/op
+InsertionSortJmh.insertionSortSorted:gc.count                     100  avgt          141.000          counts
+InsertionSortJmh.insertionSortSorted:gc.time                      100  avgt           95.000              ms
+InsertionSortJmh.insertionSortSorted                             1000  avgt            0.001           ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate               1000  avgt         5207.518          MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm          1000  avgt         4016.001            B/op
+InsertionSortJmh.insertionSortSorted:gc.count                    1000  avgt          154.000          counts
+InsertionSortJmh.insertionSortSorted:gc.time                     1000  avgt          120.000              ms
+InsertionSortJmh.insertionSortSorted                            10000  avgt            0.008           ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate              10000  avgt         4900.637          MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm         10000  avgt        40016.005            B/op
+InsertionSortJmh.insertionSortSorted:gc.count                   10000  avgt          163.000          counts
+InsertionSortJmh.insertionSortSorted:gc.time                    10000  avgt          114.000              ms
+InsertionSortJmh.insertionSortSorted                           100000  avgt            0.075           ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate             100000  avgt         5106.743          MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm        100000  avgt       400016.052            B/op
+InsertionSortJmh.insertionSortSorted:gc.count                  100000  avgt          148.000          counts
+InsertionSortJmh.insertionSortSorted:gc.time                   100000  avgt          111.000              ms
+
+Benchmark                                                      (size)  Mode  Cnt       Score       Error   Units
+InsertionSortJmh.insertionSortNearlySorted                        100  avgt    3      ≈ 10⁻³               ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate          100  avgt    3    1062.695 ±   830.574  MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm     100  avgt    3     416.000 ±     0.001    B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count               100  avgt    3     205.000              counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time                100  avgt    3     114.000                  ms
+InsertionSortJmh.insertionSortNearlySorted                       1000  avgt    3       0.009 ±     0.002   ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate         1000  avgt    3     433.539 ±    92.831  MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm    1000  avgt    3    4016.006 ±     0.001    B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count              1000  avgt    3     102.000              counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time               1000  avgt    3      63.000                  ms
+InsertionSortJmh.insertionSortNearlySorted                      10000  avgt    3       0.518 ±     0.587   ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate        10000  avgt    3      73.832 ±    84.117  MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm   10000  avgt    3   40016.360 ±     0.393    B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count             10000  avgt    3      18.000              counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time              10000  avgt    3      21.000                  ms
+InsertionSortJmh.insertionSortNearlySorted                     100000  avgt    3      64.592 ±   149.507   ms/op
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate       100000  avgt    3       5.976 ±    14.919  MB/sec
+InsertionSortJmh.insertionSortNearlySorted:gc.alloc.rate.norm  100000  avgt    3  400060.487 ±   104.945    B/op
+InsertionSortJmh.insertionSortNearlySorted:gc.count            100000  avgt    3       1.000              counts
+InsertionSortJmh.insertionSortNearlySorted:gc.time             100000  avgt    3       2.000                  ms
+InsertionSortJmh.insertionSortRandom                              100  avgt    3       0.002 ±     0.001   ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate                100  avgt    3     211.950 ±    40.548  MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm           100  avgt    3     416.001 ±     0.001    B/op
+InsertionSortJmh.insertionSortRandom:gc.count                     100  avgt    3      50.000              counts
+InsertionSortJmh.insertionSortRandom:gc.time                      100  avgt    3      27.000                  ms
+InsertionSortJmh.insertionSortRandom                             1000  avgt    3       0.210 ±     0.339   ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate               1000  avgt    3      18.324 ±    29.091  MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm          1000  avgt    3    4016.146 ±     0.236    B/op
+InsertionSortJmh.insertionSortRandom:gc.count                    1000  avgt    3       5.000              counts
+InsertionSortJmh.insertionSortRandom:gc.time                     1000  avgt    3       7.000                  ms
+InsertionSortJmh.insertionSortRandom                            10000  avgt    3      18.104 ±   117.069   ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate              10000  avgt    3       2.266 ±    12.170  MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm         10000  avgt    3   40028.495 ±    80.238    B/op
+InsertionSortJmh.insertionSortRandom:gc.count                   10000  avgt    3       1.000              counts
+InsertionSortJmh.insertionSortRandom:gc.time                    10000  avgt    3       2.000                  ms
+InsertionSortJmh.insertionSortRandom                           100000  avgt    3    1674.553 ±   226.666   ms/op
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate             100000  avgt    3       0.228 ±     0.030  MB/sec
+InsertionSortJmh.insertionSortRandom:gc.alloc.rate.norm        100000  avgt    3  401106.921 ±  1761.690    B/op
+InsertionSortJmh.insertionSortRandom:gc.count                  100000  avgt    3         ≈ 0              counts
+InsertionSortJmh.insertionSortReverse                             100  avgt    3       0.004 ±     0.001   ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate               100  avgt    3      92.950 ±     9.262  MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm          100  avgt    3     416.003 ±     0.001    B/op
+InsertionSortJmh.insertionSortReverse:gc.count                    100  avgt    3      22.000              counts
+InsertionSortJmh.insertionSortReverse:gc.time                     100  avgt    3      18.000                  ms
+InsertionSortJmh.insertionSortReverse                            1000  avgt    3       0.441 ±     1.454   ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate              1000  avgt    3       8.859 ±    27.884  MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm         1000  avgt    3    4016.306 ±     0.989    B/op
+InsertionSortJmh.insertionSortReverse:gc.count                   1000  avgt    3       2.000              counts
+InsertionSortJmh.insertionSortReverse:gc.time                    1000  avgt    3       3.000                  ms
+InsertionSortJmh.insertionSortReverse                           10000  avgt    3      33.871 ±     1.432   ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate             10000  avgt    3       1.127 ±     0.048  MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm        10000  avgt    3   40039.541 ±    10.264    B/op
+InsertionSortJmh.insertionSortReverse:gc.count                  10000  avgt    3       1.000              counts
+InsertionSortJmh.insertionSortReverse:gc.time                   10000  avgt    3       2.000                  ms
+InsertionSortJmh.insertionSortReverse                          100000  avgt    3    8486.752 ± 64626.467   ms/op
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate            100000  avgt    3       0.054 ±     0.531  MB/sec
+InsertionSortJmh.insertionSortReverse:gc.alloc.rate.norm       100000  avgt    3  405378.667 ± 48452.104    B/op
+InsertionSortJmh.insertionSortReverse:gc.count                 100000  avgt    3         ≈ 0              counts
+InsertionSortJmh.insertionSortSorted                              100  avgt    3      ≈ 10⁻⁴               ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate                100  avgt    3    3507.296 ±  2153.680  MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm           100  avgt    3     416.000 ±     0.001    B/op
+InsertionSortJmh.insertionSortSorted:gc.count                     100  avgt    3     379.000              counts
+InsertionSortJmh.insertionSortSorted:gc.time                      100  avgt    3     194.000                  ms
+InsertionSortJmh.insertionSortSorted                             1000  avgt    3       0.001 ±     0.001   ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate               1000  avgt    3    4831.941 ±  2772.661  MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm          1000  avgt    3    4016.001 ±     0.001    B/op
+InsertionSortJmh.insertionSortSorted:gc.count                    1000  avgt    3     461.000              counts
+InsertionSortJmh.insertionSortSorted:gc.time                     1000  avgt    3     281.000                  ms
+InsertionSortJmh.insertionSortSorted                            10000  avgt    3       0.008 ±     0.002   ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate              10000  avgt    3    4620.191 ±  1367.048  MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm         10000  avgt    3   40016.006 ±     0.001    B/op
+InsertionSortJmh.insertionSortSorted:gc.count                   10000  avgt    3     469.000              counts
+InsertionSortJmh.insertionSortSorted:gc.time                    10000  avgt    3     276.000                  ms
+InsertionSortJmh.insertionSortSorted                           100000  avgt    3       0.079 ±     0.089   ms/op
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate             100000  avgt    3    4817.015 ±  5586.825  MB/sec
+InsertionSortJmh.insertionSortSorted:gc.alloc.rate.norm        100000  avgt    3  400016.055 ±     0.059    B/op
+InsertionSortJmh.insertionSortSorted:gc.count                  100000  avgt    3     460.000              counts
+InsertionSortJmh.insertionSortSorted:gc.time                   100000  avgt    3     297.000                  ms
+
+Benchmark                                                      (size)  Mode  Cnt       Score       Error   Units
+InsertionSortJmh.insertionSortNearlySorted                        100  avgt    3      ≈ 10⁻³               ms/op
+InsertionSortJmh.insertionSortNearlySorted                       1000  avgt    3       0.009 ±     0.002   ms/op
+InsertionSortJmh.insertionSortNearlySorted                      10000  avgt    3       0.518 ±     0.587   ms/op
+InsertionSortJmh.insertionSortNearlySorted                     100000  avgt    3      64.592 ±   149.507   ms/op
+InsertionSortJmh.insertionSortRandom                              100  avgt    3       0.002 ±     0.001   ms/op
+InsertionSortJmh.insertionSortRandom                             1000  avgt    3       0.210 ±     0.339   ms/op
+InsertionSortJmh.insertionSortRandom                            10000  avgt    3      18.104 ±   117.069   ms/op
+InsertionSortJmh.insertionSortRandom                           100000  avgt    3    1674.553 ±   226.666   ms/op
+InsertionSortJmh.insertionSortReverse                             100  avgt    3       0.004 ±     0.001   ms/op
+InsertionSortJmh.insertionSortReverse                            1000  avgt    3       0.441 ±     1.454   ms/op
+InsertionSortJmh.insertionSortReverse                           10000  avgt    3      33.871 ±     1.432   ms/op
+InsertionSortJmh.insertionSortReverse                          100000  avgt    3    8486.752 ± 64626.467   ms/op
+InsertionSortJmh.insertionSortSorted                              100  avgt    3      ≈ 10⁻⁴               ms/op
+InsertionSortJmh.insertionSortSorted                             1000  avgt    3       0.001 ±     0.001   ms/op
+InsertionSortJmh.insertionSortSorted                            10000  avgt    3       0.008 ±     0.002   ms/op
+InsertionSortJmh.insertionSortSorted                           100000  avgt    3       0.079 ±     0.089   ms/op

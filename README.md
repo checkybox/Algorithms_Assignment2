@@ -17,7 +17,6 @@
 <details>
 <summary><strong>Show CLI usage and examples</strong></summary>
 
-
 The command line interface allows you to benchmark Insertion Sort on randomly generated integer arrays and export performance metrics to a CSV file.
 
 ### Building the JAR
@@ -85,4 +84,59 @@ JMH can report memory allocation and garbage collection impact. This project ena
 - `gc.count`: Number of GC events
 - `gc.time` (ms): Time spent in GC
 
+### Benchmarking Results
+
+| Input Type      | Size    | Avg Time (ms/op) |
+|-----------------|---------|------------------|
+| Nearly Sorted   |   100   |     ≈ 10⁻³       |
+| Nearly Sorted   |  1000   |     0.008        |
+| Nearly Sorted   | 10000   |     0.509        |
+| Nearly Sorted   |100000   |    44.561        |
+| Random          |   100   |     0.002        |
+| Random          |  1000   |     0.178        |
+| Random          | 10000   |    14.840        |
+| Random          |100000   |  1789.367        |
+| Reverse         |   100   |     0.004        |
+| Reverse         |  1000   |     0.355        |
+| Reverse         | 10000   |    36.643        |
+| Reverse         |100000   | 10983.204        |
+| Sorted          |   100   |     ≈ 10⁻⁴       |
+| Sorted          |  1000   |     0.001        |
+| Sorted          | 10000   |     0.009        |
+| Sorted          |100000   |     0.080        |
+
+
 </details>
+
+## Asymptotic Complexity Analysis
+
+### Time Complexity
+
+- Best Case (Ω(n)):
+The array is already sorted.
+Each element is compared once with its predecessor, resulting in a single pass through the array.
+- Worst Case (O(n²)):
+The array is sorted in reverse order. Each new element must be compared with all previously sorted elements and shifted to the front.
+- Average Case (Θ(n²)):
+Randomly ordered array. On average, each element is compared with half of the sorted portion before being inserted.
+
+### Space Complexity
+
+- Auxiliary Space & In-Place Optimization:
+O(1) auxiliary space since Insertion Sort is an in-place algorithm.
+All insertions and shifts are performed within the original array, with no need for extra arrays or buffers.
+
+### Recurrence Relations
+
+- For each element from index 1 to n-1, it may need to be compared with all previous elements (in the worst case).
+- For the i-th element (i from 1 to n-1), in the worst case, it is compared with all i previous elements.
+
+This gives the recurrence relation of `T(n) = T(n-1) + (n-1)` which simplifies to `T(n) = O(n²)`
+
+### Summary
+
+| Case   | Time Complexity | Space Complexity | Notes                  |
+|--------|----------------|------------------|------------------------|
+| Best   | Ω(n)           | O(1)             | Already sorted array   |
+| Average| Θ(n²)          | O(1)             | Random order           |
+| Worst  | O(n²)          | O(1)             | Reverse sorted array   |
